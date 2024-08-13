@@ -11,8 +11,7 @@
 此脚本用于自动化检查和报名北京业余无线电考试（A类），它使用 Selenium 自动化浏览器操作，并通过 PushPlus 发送通知。
 This script automates the process of checking and registering for the Beijing Amateur Radio Exam (A class) on the official website. It uses Selenium to automate browser interactions and PushPlus to send notifications.
 
-## 功能特点
-## Features
+## 功能特点 Features
 
 - **自动登录：** 使用提供的用户名和密码自动登录到网站。
 - **Automatic Login:** Automatically logs in to the website with the provided username and password.
@@ -27,26 +26,22 @@ This script automates the process of checking and registering for the Beijing Am
 - **推送通知：** 当脚本启动、数据可用或发生错误时，通过 PushPlus 发送通知。
 - **Push Notifications:** Sends push notifications via PushPlus when the script starts, when data is available, and when an error occurs.
 
-## 环境要求
-## Requirements
+## 环境要求 Requirements
 
 - Python 3.x
 - Selenium
 - Chrome WebDriver
 
-## 安装步骤
-## Installation
+## 安装步骤 Installation
 
-## 配置脚本：
-## Configure the script:
+## 配置脚本： Configure the script:
 
 打开 北京业余无线电A类验预约证自动检测与自动报名.py 并使用您的账户信息修改以下变量：
 Open 北京业余无线电A类验预约证自动检测与自动报名.py in your text editor and modify the following variables with your own credentials:
 
 # wxd.py
 
-# 账号和密码
-# Your credentials
+# 账号和密码 Your credentials
 username = "your_username@example.com"
 password = "your_password"
 
@@ -58,8 +53,7 @@ pushplus_token = "your_pushplus_token"
 # Path to Chrome WebDriver
 chrome_driver_path = r'C:\Path\To\chromedriver.exe'
 
-## 注意事项
-## Notes：
+## 注意事项 Notes：
 
 请确保 Chrome WebDriver 与您 Chrome 的版本兼容。
 脚本设计为处理强制退出登录并重新验证后继续流程。
