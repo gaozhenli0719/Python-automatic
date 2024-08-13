@@ -5,8 +5,7 @@
 
 本人于2020年（高二）接触业余无线电和相关知识，但是由于每个月的不参加知识讲座的验证名额有限，导致我如今2024年8月了仍然没有成功报名，因此结合我的专业写下了第一个具有一定实际使用意义的程序，励志本月一定要报上。
 
-# 北京业余无线电考试自动化脚本
-# Beijing Amateur Radio Exam Automation Script
+# 北京业余无线电考试自动化脚本 Beijing Amateur Radio Exam Automation Script
 
 此脚本用于自动化检查和报名北京业余无线电考试（A类），它使用 Selenium 自动化浏览器操作，并通过 PushPlus 发送通知。
 This script automates the process of checking and registering for the Beijing Amateur Radio Exam (A class) on the official website. It uses Selenium to automate browser interactions and PushPlus to send notifications.
@@ -37,14 +36,14 @@ This script automates the process of checking and registering for the Beijing Am
 打开 北京业余无线电A类验预约证自动检测与自动报名.py 并使用您的账户信息修改以下变量：
 Open 北京业余无线电A类验预约证自动检测与自动报名.py in your text editor and modify the following variables with your own credentials:
 
-# 账号和密码 Your credentials
+- **账号和密码 Your credentials**
 username = "your_username@example.com"
 password = "your_password"
 
-# Chrome WebDriver 的路径 Path to Chrome WebDriver
+- **Chrome WebDriver 的路径 Path to Chrome WebDriver**
 chrome_driver_path = r'C:\Path\To\chromedriver.exe'
 
-# 填写PushPlus token input your PushPlus token:
+- **填写PushPlus token input your PushPlus token:**
 
 pushplus_token = "your token"
 
