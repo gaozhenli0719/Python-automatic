@@ -33,11 +33,13 @@ This script automates the process of checking and registering for the Beijing Am
 打开 北京业余无线电A类验预约证自动检测与自动报名.py 并使用您的账户信息修改以下变量：
 Open 北京业余无线电A类验预约证自动检测与自动报名.py in your text editor and modify the following variables with your own credentials:
 
-- **账号和密码 Your credentials**
+- **账号和密码 Your credentials:**
+
 username = "your_username@example.com"
 password = "your_password"
 
-- **Chrome WebDriver 的路径 Path to Chrome WebDriver**
+- **Chrome WebDriver 的路径 Path to Chrome WebDriver:**
+
 chrome_driver_path = r'C:\Path\To\chromedriver.exe'
 
 - **填写PushPlus token input your PushPlus token:**
