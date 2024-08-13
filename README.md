@@ -55,6 +55,6 @@ Monitor the script’s output for any unexpected behavior or issues.
 
 ## 联系作者：
 
-QQ:652694566
-Wechat:OokamiYAN
-E-mail：gaozhenli0719@gmail.com
+- **QQ:652694566**
+- **Wechat:OokamiYAN**
+- **E-mail：gaozhenli0719@gmail.com**
