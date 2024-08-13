@@ -52,3 +52,9 @@ pushplus_token = "your token"
 Ensure that the Chrome WebDriver is compatible with your version of Chrome.
 The script is designed to handle forced logouts by re-authenticating and continuing the process.
 Monitor the script’s output for any unexpected behavior or issues.
+
+## 联系作者：
+
+QQ:652694566
+Wechat:OokamiYAN
+E-mail：gaozhenli0719@gmail.com
