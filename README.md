@@ -32,26 +32,21 @@ This script automates the process of checking and registering for the Beijing Am
 - Selenium
 - Chrome WebDriver
 
-## 安装步骤 Installation
-
 ## 配置脚本： Configure the script:
 
 打开 北京业余无线电A类验预约证自动检测与自动报名.py 并使用您的账户信息修改以下变量：
 Open 北京业余无线电A类验预约证自动检测与自动报名.py in your text editor and modify the following variables with your own credentials:
 
-# wxd.py
-
 # 账号和密码 Your credentials
 username = "your_username@example.com"
 password = "your_password"
 
-# PushPlus token
-# Your PushPlus token
-pushplus_token = "your_pushplus_token"
-
-# Chrome WebDriver 的路径
-# Path to Chrome WebDriver
+# Chrome WebDriver 的路径 Path to Chrome WebDriver
 chrome_driver_path = r'C:\Path\To\chromedriver.exe'
+
+# 填写PushPlus token input your PushPlus token:
+
+pushplus_token = "your token"
 
 ## 注意事项 Notes：
 
